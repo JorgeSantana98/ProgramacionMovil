@@ -1,0 +1,137 @@
+.cabecera {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.103), rgba(5, 4, 5, 0.226)), url(https://www.xtrafondos.com/wallpapers/espacio-digital-abstracto-6555.jpg);
+  background-size: cover;
+  height: 660px;
+}
+.cabecera header {
+  display: flex;
+  justify-content: center;
+}
+.cabecera header img {
+  width: 200px;
+  padding-top: 20px;
+}
+.cabecera nav {
+  background-color: transparent !important;
+}
+.cabecera nav a {
+  color: white !important;
+  padding-right: 50px !important;
+  font: 1.4vw "Roboto Serif", serif;
+}
+.cabecera nav div.dropdown-menu.show {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.cabecera nav a.dropdown-item {
+  color: black !important;
+  font-size: 1.2vw;
+}
+.cabecera h1 {
+  margin: 60px 570px 0px 150px;
+  color: rgb(237, 204, 243);
+  font-family: "Belanosima", sans-serif;
+  font-size: 4.5vw;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+div#contenido {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.103), rgba(5, 4, 5, 0.226)), url(../assets/body.jpg);
+  height: 1900px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+div#contenido main {
+  float: left;
+  width: 70%;
+}
+div#contenido main article {
+  padding: 70px;
+  text-align: justify;
+  margin: 10px 20px 10px 20px;
+  font: 1.4vw "Roboto Serif", serif;
+}
+div#contenido main article p {
+  line-height: 1.6;
+}
+div#contenido main div.container caption {
+  color: white;
+}
+div#contenido main h4 {
+  margin-left: 15px;
+}
+div#contenido main .redes-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div#contenido main .redes-container a {
+  text-decoration: none;
+  color: white;
+}
+div#contenido main .redes-container a i {
+  margin-right: 50px;
+}
+div#contenido aside {
+  float: left;
+  width: calc(30% - 20px);
+  padding: 20px 20px 0px;
+  margin: 30px 10px 10px 10px;
+  background: hsla(240deg, 2%, 43%, 0.288);
+  color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+div#contenido aside div .recomendacion img {
+  width: 50%;
+}
+div#contenido aside #escribenos form label {
+  display: block;
+}
+div#contenido aside #escribenos form input {
+  width: 100%;
+  padding: 10px 0;
+  color: black;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  margin-bottom: 30px;
+  display: block;
+}
+div#contenido aside #escribenos form input[type=submit] {
+  background-color: black;
+  color: aliceblue;
+  border: none;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 15px;
+  margin-top: 30px;
+}
+div#contenido aside #escribenos form .warnings {
+  width: 20px;
+  text-align: center;
+  margin: auto;
+  color: #c1121f;
+  padding-top: 20px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+footer .text-primary {
+  color: black !important;
+}
+footer a.text-dark:hover {
+  color: #7b2cbf !important;
+  text-decoration: none;
+}/*# sourceMappingURL=styles.css.map */

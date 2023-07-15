@@ -1,0 +1,170 @@
+.cabecera {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.103), rgba(5, 4, 5, 0.226)),
+        url(https://www.xtrafondos.com/wallpapers/espacio-digital-abstracto-6555.jpg);
+    background-size: cover;
+    height: 660px;
+
+    header {
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 200px;
+            padding-top: 20px;
+        }
+    }
+
+    nav {
+        background-color: transparent !important;
+
+        a {
+            color: white !important;
+            padding-right: 50px !important;
+            font: 1.4vw "Roboto Serif", serif;
+        }
+
+        div.dropdown-menu.show {
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+
+        a.dropdown-item {
+            color: black !important;
+            font-size: 1.2vw;
+        }
+    }
+
+    h1 {
+        margin: 60px 570px 0px 150px;
+        color: rgb(237, 204, 243);
+        font-family: "Belanosima", sans-serif;
+        font-size: 4.5vw;
+        text-align: left;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+div#contenido {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.103), rgba(5, 4, 5, 0.226)),
+        url(/resources/assets/body.jpg);
+    height: 1900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+
+    main {
+        float: left;
+        width: 70%;
+
+        article {
+            padding: 70px;
+            text-align: justify;
+            margin: 10px 20px 10px 20px;
+            font: 1.4vw "Roboto Serif", serif;
+
+            p {
+                line-height: 1.6;
+            }
+        }
+
+        div.container {
+            caption {
+                color: white;
+            }
+        }
+        h4{
+            margin-left: 15px;
+        }
+        .redes-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            a {
+                text-decoration: none;
+                color: white;
+
+                i {
+                    margin-right: 50px;
+                }
+            }
+
+        }
+    }
+
+    aside {
+        float: left;
+        width: calc(30% - 20px);
+        padding: 20px 20px 0px;
+        margin: 30px 10px 10px 10px;
+        background: hsla(240, 2%, 43%, 0.288);
+        color: white;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+
+        div {
+            .recomendacion img {
+                width: 50%;
+            }
+        }
+
+        #escribenos {
+            form {
+                label {
+                    display: block;
+                }
+
+                input {
+                    width: 100%;
+                    padding: 10px 0;
+                    color: black;
+                    background: transparent;
+                    border: none;
+                    border-bottom: 1px solid white;
+                    margin-bottom: 30px;
+                    display: block;
+
+                    &[type="submit"] {
+                        background-color: black;
+                        color: aliceblue;
+                        border: none;
+                        letter-spacing: 5px;
+                        text-transform: uppercase;
+                        cursor: pointer;
+                        padding: 15px;
+                        margin-top: 30px;
+                    }
+                }
+
+                .warnings {
+                    width: 20px;
+                    text-align: center;
+                    margin: auto;
+                    color: #c1121f;
+                    padding-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+.clearfix {
+    clear: both;
+}
+
+footer {
+    .text-primary {
+        color: black !important;
+    }
+
+    a.text-dark:hover {
+        color: #7b2cbf !important;
+        text-decoration: none;
+    }
+}
